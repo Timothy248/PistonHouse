@@ -1,0 +1,42 @@
+name: PistonHouse
+version: 2.0
+main: ch.timxxx.pistonHouse.main.Main
+author: Timxxx
+api: 1.13
+depend: [SidebarAPI]
+
+commands:
+   shop:
+      description: Open the shop.
+ 
+   balance:
+      description: Look up your mobcoins.
+      
+   pay:
+      description: Pay mobcoins to another player.
+      
+   heal:
+      description: Heal yourself for a price of 2 mobcoins.
+      
+   feed:
+      description: Eat for a price of 2 Mobcoins.
+      
+   enderchest:
+      description: Open your enderchest for a price of 10 mobcoins.
+      aliases: [echest, ec]
+      
+   inventory:
+      description: See the inventory of a player.
+      
+   location:
+      description: Get your location.
+      aliases: [loc, l]
+      
+   ping:
+      description: Shows your ping.
+      
+   sneak:
+      description: Makes your name tag invisible.
+   
+   todo:
+      description: A ToDo list.
